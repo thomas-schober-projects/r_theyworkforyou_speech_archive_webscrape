@@ -1,3 +1,9 @@
+
+###############################
+## Webspraping of parliamentary speeches from the theyworkforyou.com 
+## Author: Thomas Schober 
+##############################
+
 rm(list=ls()) 
 
 library(XML)
@@ -8,7 +14,7 @@ library(janitor)
 library(rvest)     
 library(purrr)
 
-setwd("C:/Users/tscho/OneDrive/Desktop/Quants2")
+setwd("")
 
 #Setting the page to scrape
 page <- read_html("https://www.theyworkforyou.com/pwdata/scrapedxml/debates")
